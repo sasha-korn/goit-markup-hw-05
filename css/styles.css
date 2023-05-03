@@ -584,7 +584,7 @@ position: absolute;
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-card-wrapper:hover .overlay-box {
+.portfolio-card-wrapper:hover .overlay-box, .portfolio-card-wrapper:focus .overlay-box  {
   transform: translatey(-100%);
   opacity: 1;
 }
@@ -596,4 +596,5 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
+
 
