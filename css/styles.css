@@ -412,9 +412,8 @@ footer .icon-block:focus {
 
 /* section what we are doin (our work) */
 
-.work-title,
 .team-title,
-.customers-title {
+.portfolio-title {
   text-transform: capitalize;
   color: var(--headers-color);
   font-size: 36px;
@@ -422,10 +421,6 @@ footer .icon-block:focus {
   text-align: center;
   letter-spacing: 0.02em;
   margin-bottom: 72px;
-}
-
-.work {
-  padding-bottom: 120px;
 }
 
 /* section team */
@@ -544,10 +539,6 @@ footer .icon-block:focus {
 }
 
 /* PORTFOLIO PAGE */
-
-.portfolio-title {
-  display: none;
-}
 
 .portfolio {
   padding-top: 96px;
