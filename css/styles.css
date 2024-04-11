@@ -322,6 +322,11 @@ footer .icon-block:focus {
   fill: var(--active-color);
 }
 
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
 /* HOME PAGE */
 /* section hero */
 
