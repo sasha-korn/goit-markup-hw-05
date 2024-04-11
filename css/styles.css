@@ -778,7 +778,17 @@ footer .icon-block:focus {
   padding-left: 38px;
   outline: 1px solid transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  letter-spacing: 0.04em; 
+  display: block; 
+  margin-bottom: 4px; 
 }
+
+
+.modal-form-input {
+  background-color: transparent; 
+
+}
+
 
 .modal-form-name {
   font-weight: 400;
@@ -795,7 +805,7 @@ footer .icon-block:focus {
 
 .modal-form-input:focus,
 .modal-form-comment:focus {
-  border-color: var(--secondary-color);
+  border-color: #4D5AE5
 }
 
 .modal-form-input:focus + .modal-form-icon {
