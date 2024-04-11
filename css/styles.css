@@ -63,9 +63,9 @@ address {
   font: inherit;
 }
 
-textarea {
+/* textarea {
   resize: none;
-}
+} */
 
 /* загальні стилі для багатьох різних елементів */
 .container {
@@ -793,11 +793,18 @@ footer .icon-block:focus {
 .modal-form-comment {
   height: 120px;
   padding: 8px 16px;
+  font-size: 12px; 
+  line-height: 1.17; 
+  color: rgba(46, 47, 66, 0.4); 
 }
 
 /* .modal-form-input:focus + .modal-form-icon {
   fill: #4D5AE5;
 } */
+
+.modal-form-comment:focus {
+  border-color: #4D5AE5;
+}
 
 .modal-form-input:focus {
   border-color: #4D5AE5;
@@ -930,4 +937,12 @@ footer .icon-block:focus {
 
 .test {
   margin-bottom: 8px;
+}
+
+.test.test1 {
+  margin-bottom: 16px;
+}
+
+.checktest {
+  margin-bottom: 24px; 
 }
