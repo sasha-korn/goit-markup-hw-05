@@ -755,13 +755,11 @@ footer .icon-block:focus {
 }
 
 .modal-form-label {
-  display: flex;
+  display: block;
   flex-direction: column;
   gap: 4px;
-}
-
-.modal-form-label {
-  margin-bottom: 8px;
+  letter-spacing: 0.04em; 
+  margin-bottom: 4px;
 }
 
 .textarea {
@@ -782,10 +780,8 @@ footer .icon-block:focus {
   letter-spacing: 0.04em; 
   display: block; 
   margin-bottom: 4px; 
-}
-
-
-.modal-form-input {
+/* }
+.modal-form-input { */
   background-color: transparent; 
 
 }
@@ -804,14 +800,16 @@ footer .icon-block:focus {
   padding: 8px 16px;
 }
 
+
+.modal-form-input:focus + .modal-form-icon {
+  fill: var(--secondary-color);
+}
+
 .modal-form-input:focus,
 .modal-form-comment:focus {
   border-color: #4D5AE5
 }
 
-.modal-form-input:focus + .modal-form-icon {
-  fill: var(--secondary-color);
-}
 
 .modal-form-comment::placeholder {
   font-weight: 400;
