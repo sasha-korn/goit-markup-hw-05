@@ -745,13 +745,12 @@ footer .icon-block:focus {
 
 .close-btn:hover .icon-close,
 .close-btn:focus .icon-close {
-  fill: var(--primary-body-color);
+  fill: #ffffff;
 }
 
 .close-btn:hover, .close-btn:focus {
   background-color: #404bbf; 
   border: none; 
-
 }
 
 .modal-form-label {
